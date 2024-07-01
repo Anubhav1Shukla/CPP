@@ -15,10 +15,20 @@ int main(){
     // }
 
     // return 0;
-    char A[]={'A',66,'C',68};
-    for(auto x:A){
-        cout<<x<<endl;
-    }
+    // char A[]={'A',66,'C',68};
+    // for(auto x:A){
+    //     cout<<x<<endl;
+    // }
     //output A B C D
+
+
+    //for each
+    int A[5]={1,2,3,4,5};
+    // for(int x:A)
+    //     cout<<++x<<endl;   //isme array ke ek copy ban jati hai
+    
+    for(int &x:A){
+        cout<<++x<<endl;  //isme jo array rahta hai usi array ko modify karta hai naya array nahi create hota
+    }
 
 }
