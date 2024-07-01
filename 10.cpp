@@ -1,4 +1,4 @@
-// Program for Linear Search
+// Program for Linear Search.
 #include <iostream>
 using namespace std;
  int main()
