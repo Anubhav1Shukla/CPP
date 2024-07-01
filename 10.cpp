@@ -13,7 +13,7 @@ using namespace std;
  {
   if(key==A[i])
   {
-   cout<<"The Key element is found at "<<i<<endl;
+   cout<<"The Key element is found at index "<<i<<endl;
    exit(0);
   }
  }
